@@ -1,0 +1,13 @@
+[user]
+	name = Neil Enns
+	email = neile@live.com
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDwVzK3Pzb5yINZARl/0nO+CcO2u5X9As2yVM4gr3CPrqzU8t6oJKWDo7x1IV+bEYd285xKJHsl98tY/2/h3+s0SocqYBOBMm/B+d8oYGO55jigk2AmZRK5zOfknfTuFRrNWZm9S51Dp7hIxUy9NriDZeQNTFAboSLmK5KB9ZuYTGPCpY9yXnpsJSvUD/oGTiSfqWqvumaBmye6R6XerNoAvkdxIvypGFsU/opY6Iedxk7ADEx1M6v1bZOSxRuxCMpFCIVoJL3BFfyhKl5VklJHlJ5ddBRUJb2jVx5Jjblv2B1Xh4D9fAp/I2BZlA5Titqsd1eSQQvhkhNeANx28Cqp0h5ahlXGY1O5oOM9riijMyz36xfWsX4fXwCnz/GC+C/gy4oYxUVaDBqgHVnvPF/JqR6Hbx1tQagwCSKvP9zCAXgXZoY3xTducdLoLCwtlMqyVY+O5oKQ+OBicoKc9eTA5raqbwcFdabJbByhJKN9OH3REORw35GJpPrdyWptVZE=
+[core]
+	editor = code --wait
+	longpaths = true
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[credential]
+	helper = "!f() { /home/vscode/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node /tmp/vscode-remote-containers-b1241213-29ba-4a21-b01c-0511553817a5.js git-credential-helper $*; }; f"

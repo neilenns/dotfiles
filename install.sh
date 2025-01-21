@@ -4,7 +4,7 @@
 cp ./.gitconfig ~
 
 # Copy the zsh config
-# cp ./.zshrc ~
+cp ./.zshrc ~
 
 # set zsh as default shell for the remote user
 chsh -s "$(which zsh)" "$_REMOTE_USER"

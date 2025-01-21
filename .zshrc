@@ -24,3 +24,9 @@ source $ZSH/oh-my-zsh.sh
 DISABLE_AUTO_UPDATE=true
 DISABLE_UPDATE_PROMPT=true
 DEFAULT_USER=vscode
+
+# Custom prompt that strips /workspaces off the path
+prompt_dir() {
+  local dir=${PWD/#\/workspaces\//}
+  prompt_segment blue black "$dir"
+}
